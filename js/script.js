@@ -5,7 +5,7 @@ $(document).ready(function () {
     pagination: false,
   });
   var typed = new Typed(".typed", {
-    strings: ["Software Engineer", "Full Stack Web Developer"],
+    strings: ["Full Stack Web Developer"],
     typeSpeed: 100,
     loop: true,
     startDelay: 0,
