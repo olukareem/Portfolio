@@ -17,14 +17,7 @@ export default class About extends Component {
                         <h3>Olu Kareem</h3>
                         <h3>Full Stack Junior Developer</h3>
               <p>
-                I'm Olu. I'd describe myself as a self-driven creative
-                interested in extending my knowledge and wisdom however I can.
-                I’m always excited to discover new creative approaches through
-                collaboration. I currently work as a full stack developer and I
-                chose this path because its where my love of problem-solving and
-                development intersects. I've been programming since Winter of 2020 and I have experience in JavaScript, Ruby on
-                Rails, GO, SQL, Node, Express, React, Redux, MongoDB. I look
-                to keep expanding.
+              I’m an early-career full stack software engineer with experience in building scalable applications, product design, mixed media and self management within an agile workflow. I’ve built functional apps on my own and as a collaborator and I understand the process of working the software development cycle; from analysis and design, to implementation and QA, to deployment and maintenance. I’m familiar with working  through iterations, “sprints” and achieving deliverables and in a team environment, I make it a priority to ask many questions, remain mindful and hold myself accountable. I attended General Assembly’s Software Engineering Bootcamp in 2020 but I’m mostly self-taught. Most recently, I was employed as a software engineer intern for Splice. I’m ready to work and always looking for ways to improve.
               </p>
               <hr />
               <div className="row s-about__content-bottom">
