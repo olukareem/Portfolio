@@ -15,7 +15,7 @@ export default class Resume extends Component {
                   <div className="ga-logo">
                     <h4 className="h3">
                       Splice{" "}
-                      <a href="https://generalassemb.ly/">
+                      <a href="https://splice.com">
                         <img src="images/workhistory/splice.png" alt="Splice" />
                       </a>
                     </h4>
