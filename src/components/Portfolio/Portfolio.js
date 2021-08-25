@@ -148,8 +148,6 @@ export default class Portfolio extends Component {
               >
                 <img
                   src="images/portfolio/github/avatar.png"
-                  srcSet="images/portfolio/github/avatar.png 1x, 
-                           public/images/portfolio/github/avatar.png 2x"
                   alt="github avatar"
                 />
               </a>

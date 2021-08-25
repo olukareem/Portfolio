@@ -15,7 +15,7 @@ export default class About extends Component {
             </div>
             <div className="column large-9 tab-12 s-about__content">
                         <h3>Olu Kareem</h3>
-                        <h3>Full Stack Junior Developer</h3>
+                        <h3>Full Stack Software Developer</h3>
               <p>
               I’m an early-career full stack software engineer with experience in building scalable applications, product design, mixed media and self management within an agile workflow. I’ve built functional apps on my own and as a collaborator and I understand the process of working the software development cycle; from analysis and design, to implementation and QA, to deployment and maintenance. I’m familiar with working  through iterations, “sprints” and achieving deliverables and in a team environment, I make it a priority to ask many questions, remain mindful and hold myself accountable. I attended General Assembly’s Software Engineering Bootcamp in 2020 but I’m mostly self-taught. Most recently, I was employed as a software engineer intern for Splice. I’m ready to work and always looking for ways to improve.
               </p>

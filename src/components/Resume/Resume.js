@@ -14,16 +14,47 @@ export default class Resume extends Component {
                 <div className="resume-block__header">
                   <div className="ga-logo">
                     <h4 className="h3">
+                      Splice{" "}
+                      <a href="https://generalassemb.ly/">
+                        <img src="images/workhistory/splice.png" alt="Splice" />
+                      </a>
+                    </h4>
+                  </div>
+                  <p className="resume-block__header-meta">
+                    <span>Software Engineer Internship: Creator Tools</span>
+                    <span className="resume-block__header-date">
+                      Summer 2021
+                    </span>
+                  </p>
+                </div>
+                <p>
+                  Performed agile work as a member of the creator tools team. Our duties
+                  were to craft the surface for musicians to express their
+                  ideas. I contributed front and backend work to their new
+                  desktop UI. One task I had was to take a component, break it
+                  down and rewrite it into separate components that didn’t rely
+                  on an obsolete state. The task involved front and backend work
+                  with Typescript and Angular. With my fellow interns, we
+                  created an audio effect chaining plugin using
+                  Superpowered and WebAssembly. I worked solely on the backend using
+                  javascript.
+                </p>
+              </div>{" "}
+              {/* end resume-block */}
+              <div className="resume-block">
+                <div className="resume-block__header">
+                  <div className="ga-logo">
+                    <h4 className="h3">
                       General Assembly{" "}
                       <a href="https://generalassemb.ly/">
-                        <img src="images/GA-Logo.png" alt="logo" />
+                        <img src="images/workhistory/GA-Logo.png" alt="General Assembly" />
                       </a>
                     </h4>
                   </div>
                   <p className="resume-block__header-meta">
                     <span>Software Engineering Fellow</span>
                     <span className="resume-block__header-date">
-                      April 2020 - Present
+                      Spring/Summer 2020
                     </span>
                   </p>
                 </div>
@@ -46,18 +77,27 @@ export default class Resume extends Component {
                     <h4 className="h3">
                       Public Records{" "}
                       <a href="https://publicrecords.nyc/">
-                        <img src="images/gif/PublicRecsLogo.gif" alt="PRlogo" />
+                        <img
+                          src="images/workhistory/PublicRecsLogo.gif"
+                          alt="PRlogo"
+                        />
                       </a>
                     </h4>
                   </div>
                   <p className="resume-block__header-meta">
-                    <span>Client Facing Services</span>
+                    <span>Client Facing Operations</span>
                     <span className="resume-block__header-date">
                       March 2019 - Present
                     </span>
                   </p>
                 </div>
-                <p></p>
+                <p>
+                  Public Records is a music-driven restaurant, performance, and
+                  community space. As a member of the inaugural staff, I
+                  contributed to the early development of the space. As we
+                  progressed I performed a variety of duties including
+                  customer-facing services and bar management.
+                </p>
               </div>{" "}
               {/* end resume-block */}
             </div>

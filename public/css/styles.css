@@ -3885,8 +3885,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-resume {
     background-color: white;
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
+    padding-top: calc(4 * var(--space));
+    padding-bottom: var(--vspace-2);
 }
 
 .s-resume__section {
@@ -3963,8 +3963,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-portfolio {
     background-color: var(--color-gray-1);
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-5);
+    padding-top: calc(2 * var(--space));
+    padding-bottom: var(--vspace-2);
 }
 
 .s-portfolio h3 {
