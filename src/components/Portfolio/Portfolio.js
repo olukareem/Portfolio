@@ -131,7 +131,7 @@ export default class Portfolio extends Component {
                   src="images/portfolio/LinkedIn/linkedin-logo-high-res-1.jpg"
                   srcSet="images/portfolio/LinkedIn/linkedin-logo-high-res-1.jpg 1x, 
                            images/portfolio/LinkedIn/linkedin-logo-high-res-1.jpg 2x"
-                  alt=""
+                  alt="linkedIn"
                 />
               </a>
               <div class="overlay">

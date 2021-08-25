@@ -4748,3 +4748,6 @@ input[type="button"].btn--primary:focus {
     float: right;
 }
 
+.skill-icons img{
+    padding: 10px;
+}

@@ -14,10 +14,10 @@ export default class Resume extends Component {
                 <div className="resume-block__header">
                   <div className="ga-logo">
                     <h4 className="h3">
-                                        General Assembly{" "}
-                                        <a href="https://generalassemb.ly/">        
-                                            <img src="images/GA-Logo.png" alt="logo" />
-                                            </a>
+                      General Assembly{" "}
+                      <a href="https://generalassemb.ly/">
+                        <img src="images/GA-Logo.png" alt="logo" />
+                      </a>
                     </h4>
                   </div>
                   <p className="resume-block__header-meta">
@@ -34,7 +34,9 @@ export default class Resume extends Component {
                   self-help blogging site that used ruby on rails backend with
                   an SQL database, and a react frontend. I also worked on an
                   open source meal recipe app using React/Redux, Node/Express,
-                  and MongoDB. You can find some of these projects below. It was a great introduction to this career path and gave me rare opportunities for peer-coding.
+                  and MongoDB. You can find some of these projects below. It was
+                  a great introduction to this career path and gave me rare
+                  opportunities for peer-coding.
                 </p>
               </div>{" "}
               {/* end resume-block */}
@@ -42,10 +44,10 @@ export default class Resume extends Component {
                 <div className="resume-block__header">
                   <div className="pr-logo">
                     <h4 className="h3">
-                                        Public Records{" "}
-                                        <a href="https://publicrecords.nyc/">  
-                                            <img src="images/gif/PublicRecsLogo.gif" alt="PRlogo" />
-                                            </a>
+                      Public Records{" "}
+                      <a href="https://publicrecords.nyc/">
+                        <img src="images/gif/PublicRecsLogo.gif" alt="PRlogo" />
+                      </a>
                     </h4>
                   </div>
                   <p className="resume-block__header-meta">
@@ -55,9 +57,7 @@ export default class Resume extends Component {
                     </span>
                   </p>
                 </div>
-                <p>
-                 
-                </p>
+                <p></p>
               </div>{" "}
               {/* end resume-block */}
             </div>
@@ -70,7 +70,9 @@ export default class Resume extends Component {
             <div className="column large-9 tab-12">
               <div className="resume-block">
                 <p>
-                 Since finishing at GA, I spend most of my time on learning resources like Udemy and Leetcode working to improve my skillset. Below are my current concentrations.
+                  Since finishing at GA, I spend most of my time on learning
+                  resources like Udemy and Leetcode working to improve my
+                  skillset. Below are my current concentrations.
                 </p>
                 <ul className="skill-bars-fat" className="skill-icons">
                   {/* <li>
@@ -98,40 +100,105 @@ export default class Resume extends Component {
                     <div className="progress percent60" />
                     <strong>Photoshop</strong>
                   </li> */}
-                  <img src="images/portfolio/Skills/Html5Logo.png" alt="html" />
-                  <img src="images/portfolio/Skills/CSSlogo.png" alt="CSS" />
-                  <img src="images/portfolio/Skills/sassLogo.png" alt="SASS" />
                   <img
-                    src="images/portfolio/Skills/ReactLogo.png"
-                    alt="React"
+                    class="skill-icon"
+                    src="images/portfolio/Skills/Html5Logo.png"
+                    alt="html"
                   />
                   <img
-                    src="images/portfolio/Skills/nodejslogo.png"
-                    alt="Node"
+                    class="skill-icon"
+                    src="images/portfolio/Skills/CSSlogo.png"
+                    alt="CSS"
                   />
                   <img
-                    src="images/portfolio/Skills/Expressjs.png"
-                    alt="Express"
+                    class="skill-icon"
+                    src="images/portfolio/Skills/sassLogo.png"
+                    alt="SCSS"
                   />
                   <img
-                    src="images/portfolio/Skills/mongodb-logo.png"
-                    alt="MongoDB"
-                  />
-                  <img
-                    src="images/portfolio/Skills/PSGSQLLogo.png"
-                    alt="PostgreSQL"
-                  />
-                  <img
+                    class="skill-icon"
                     src="images/portfolio/Skills/javascriptlogo.png"
                     alt="javascript"
                   />
                   <img
-                    src="images/portfolio/Skills/Go-Logo_Blue.png"
-                    alt="Go"
+                    class="skill-icon"
+                    src="images/portfolio/Skills/typescriptlogo.png"
+                    alt="typescript"
                   />
                   <img
-                    src="images/portfolio/Skills/Ruby_on_Rails-logo.png"
-                    alt="RoR"
+                    class="skill-icon"
+                    src="images/portfolio/Skills/gologoblue.png"
+                    alt="Golang"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/rubylogo.png"
+                    alt="Golang"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/railslogo.png"
+                    alt="Rails"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/nodejslogo.png"
+                    alt="Node.js"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/reactLogo.png"
+                    alt="React"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/angularlogo.png"
+                    alt="Angular"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/expressjslogo.png"
+                    alt="Express"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/restlogo.png"
+                    alt="REST"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/graphqllogo.png"
+                    alt=" GraphQl"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/mongodb-logo.png"
+                    alt="MongoDB"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/storybooklogo.png"
+                    alt="Storybook"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/sqllogo.png"
+                    alt="SQL"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/PSGSQLLogo.png"
+                    alt="PostgreSQL"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/vscodelogo.png"
+                    alt="VSCode"
+                  />
+                  <img
+                    class="skill-icon"
+                    src="images/portfolio/Skills/giticon.png"
+                    alt="Git Version Control"
                   />
                 </ul>
               </div>{" "}
