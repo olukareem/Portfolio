@@ -178,7 +178,7 @@
                 clickable: true,
             },          
             breakpoints: {
-                // when window width is >= 401px
+                // when window width is >= 401px 
                 401: {
                     slidesPerView: 1,
                     spaceBetween: 20
